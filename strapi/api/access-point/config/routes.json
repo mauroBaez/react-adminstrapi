@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/access-points",
+      "handler": "access-point.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/access-points/count",
+      "handler": "access-point.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/access-points/:id",
+      "handler": "access-point.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/access-points",
+      "handler": "access-point.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/access-points/:id",
+      "handler": "access-point.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/access-points/:id",
+      "handler": "access-point.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

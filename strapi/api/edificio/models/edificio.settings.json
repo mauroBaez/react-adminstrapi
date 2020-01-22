@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Edificio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "edificios"
+}

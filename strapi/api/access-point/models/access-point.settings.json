@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "access_points",
+  "info": {
+    "name": "Access Point"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "IP": {
+      "type": "string"
+    },
+    "UsuarioAdmin": {
+      "type": "string"
+    },
+    "ClaveAdmin": {
+      "type": "password"
+    },
+    "SSIDs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "access-point.ssid"
+    }
+  }
+}

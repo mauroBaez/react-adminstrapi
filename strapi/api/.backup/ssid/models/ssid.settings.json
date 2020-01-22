@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "ssids",
+  "info": {
+    "name": "SSID"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "Clave": {
+      "type": "password"
+    }
+  }
+}

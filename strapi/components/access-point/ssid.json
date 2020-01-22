@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_ssid_ssids",
+  "info": {
+    "name": "SSID",
+    "icon": "wifi"
+  },
+  "options": {},
+  "attributes": {
+    "SSID": {
+      "type": "string"
+    },
+    "Clave": {
+      "type": "password"
+    }
+  }
+}
